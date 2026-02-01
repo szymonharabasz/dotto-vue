@@ -8,7 +8,7 @@
 
 <template>
     <div :key="props.dotto.id" class="dotto-item">
-        <h2>{{ props.dotto.title }}</h2>
+        <h2 class="text-xl font-bold">{{ props.dotto.title }}</h2>
         <p>{{ props.dotto.description }}</p>
         <small>Created at: {{ props.dotto.createdAt.toLocaleDateString() }}</small>
         <br />
