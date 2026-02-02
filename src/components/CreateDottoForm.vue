@@ -31,6 +31,6 @@ function onSubmit() {
       <label for="rating">Rating:</label>
       <input type="number" id="rating" name="rating" min="1" max="5" v-model="newDotto.rating" />
     </div>
-    <button type="submit" @click.prevent="onSubmit">Create Dotto</button>
+    <button class="btn" type="submit" @click.prevent="onSubmit">Create Dotto</button>
   </form>
 </template>
