@@ -17,3 +17,13 @@ defineProps<{
         />
     </div>
 </template>
+
+<style scoped>
+.dotto-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content:left;
+}
+</style>

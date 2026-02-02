@@ -37,8 +37,8 @@
 
 <template>
   <main>
-    <DottoList :dottos="dottos" />
     <CreateDottoForm @new-dotto="addDotto" />
+    <DottoList :dottos="dottos" />
   </main>
 </template>
 
@@ -46,8 +46,8 @@
   main {
     display: flex;
     gap: 2rem;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
     background-color: green;
   }
 </style>
