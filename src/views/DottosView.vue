@@ -41,3 +41,13 @@
     <CreateDottoForm @new-dotto="addDotto" />
   </main>
 </template>
+
+<style scoped>
+  main {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    background-color: green;
+  }
+</style>
